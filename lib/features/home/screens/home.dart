@@ -1,5 +1,5 @@
-import 'package:default_app/core/utils/size_config.dart';
 import 'package:flutter/material.dart';
+import 'package:fondoki/core/utils/size_config.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
