@@ -10,6 +10,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 String intialRoute = AppRoutes.auth;
 void main() async {
+
+  //hunter here
   Bloc.observer = MyBlocObserver();
   WidgetsFlutterBinding.ensureInitialized();
   await DioHelper.init();
